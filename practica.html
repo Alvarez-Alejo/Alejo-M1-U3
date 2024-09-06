@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const dist = parseInt(prompt('Ingrese la distancia:', ''));
+        if (dist < 1000) {
+            document.write("camine")
+        } else {
+            if (dist < 10000) {
+                document.write("bici")
+            } else {
+                if (dist < 30000) {
+                    document.write("colectivo")
+                } else {
+                    if (dist < 100000) {
+                        document.write("auto")
+                    } else {
+                        document.write("avion")
+                    }
+                }
+            }
+        }
+
+    </script>
+</body>
+
+</html>
